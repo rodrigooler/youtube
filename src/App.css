@@ -1,0 +1,21 @@
+.App {
+  text-align: center;
+}
+
+
+.body{
+  background-color: rgb(226,228,230);
+  height:600px;
+}
+
+
+.header{
+  height: 56px;
+  padding:0 16px;
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  background-color: white;
+}

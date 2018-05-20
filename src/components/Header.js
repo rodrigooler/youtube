@@ -9,7 +9,7 @@ class Header extends React.Component{
         return(
             <header className='header'>
                 <div className="header-left">
-                <button className="hamburger-menu">
+                <button className="hamburger-menu" aria-label="">
                     <MaterialIcon icon="menu" size="small"/>
                 </button>
 
@@ -17,29 +17,31 @@ class Header extends React.Component{
                     <img className="logo-img" src={logoPath} alt="youtube logo" />
                 </div>
                 </div>
+
                 <div className="header-center">
                     <div className="search-bar">
-                        <input className="search-input"/>
-                        <button className="search-button">
+                        <input className="search-input" placeholder="Cerca"/>
+                        <button className="search-button" aria-label="">
                             <MaterialIcon icon="search" size="small"/>
                         </button>
                     </div>
                 </div>
-                <div className="header-right">
+
+                <div className="header-right" aria-label="" >
                 <button className="new-post-button">
                     <MaterialIcon icon="video_call" size="small"/>
                 </button>
 
-                <button className="apps-button">
+                <button className="apps-button" aria-label="" >
                     <MaterialIcon icon="apps" size="small"/>
                 </button>
 
-                <button className="notification-button">
+                <button className="notification-button" aria-label="" >
                     <MaterialIcon icon="notifications" size="small"/>
                 </button>
 
-                <button className="account-circle">
-                    <MaterialIcon icon="account_circle" size="small"/>
+                <button className="account-circle" aria-label="">
+                    <MaterialIcon icon="account_circle" size="medium"/>
                 </button>
                 </div>
             </header>

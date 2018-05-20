@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Header from './components/Header'
+import Sidemenu from './components/Sidemenu';
 import './App.css';
 
 class App extends Component {
@@ -7,8 +8,8 @@ class App extends Component {
     return (
       <div className="App">
 
-       <Header />
-
+          <Header />
+          <Sidemenu />
         <div className="body" />
       </div>
     );

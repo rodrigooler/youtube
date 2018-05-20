@@ -81,6 +81,7 @@
   width:100%;
   padding:8px 4px 8px 4px;
   max-width: 500px;
+  font-size:16px;
 
 }
 .search-button{
@@ -122,6 +123,7 @@
   margin-right:8px;
 
 }
+
 .more-button{
   display:inline-block;
   padding:8px;
@@ -129,11 +131,13 @@
   width:48px;
   margin-right:8px;
 }
+
 .login-button{
   display:inline-block;
   margin-right:8px;
   text-transform: uppercase;
   font-size:16px;
   color:red;
+  font-weight: bold;
 
 }

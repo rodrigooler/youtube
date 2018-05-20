@@ -19,3 +19,37 @@
   width: 100%;
   background-color: white;
 }
+button:hover{
+  cursor:pointer;
+}
+
+
+.logo-container{
+
+}
+
+.logo-img{
+    width:75px;
+}
+
+.search-button, .hamburger-menu, .new-post-button, .apps-button, .notification-button, .account-circle {
+  background-color: transparent;
+  border: none;
+}
+
+.hamburger-menu{
+
+}
+
+.search-bar{
+
+}
+
+.search-input{
+
+}
+
+
+.new-post-button{
+
+}

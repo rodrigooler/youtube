@@ -28,21 +28,22 @@ class Header extends React.Component{
                 </div>
 
                 <div className="header-right" aria-label="" >
-                <button className="new-post-button">
-                    <MaterialIcon icon="video_call" size="small"/>
-                </button>
+                     <button className="new-post-button">
+                         <MaterialIcon icon="video_call" size="small"/>
+                     </button>
 
-                <button className="apps-button" aria-label="" >
-                    <MaterialIcon icon="apps" size="small"/>
-                </button>
+                     <button className="apps-button" aria-label="" >
+                        <MaterialIcon icon="apps" size="small"/>
+                     </button>
 
-                <button className="notification-button" aria-label="" >
-                    <MaterialIcon icon="notifications" size="small"/>
-                </button>
 
-                <button className="account-circle" aria-label="">
-                    <MaterialIcon icon="account_circle" size="medium"/>
-                </button>
+                    <button className="more-button" aria-label="" >
+                        <MaterialIcon icon="more_vert" size="small"/>
+                    </button>
+
+                    <button className="login-button">
+                        ACCEDI
+                    </button>
                 </div>
             </header>
         )

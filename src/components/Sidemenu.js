@@ -197,7 +197,7 @@ class Sidemenu extends Component {
                 </ul>
 
 
-                <div>
+                <div className="footer-copyright">
                     2018 YouTube, LLC
                 </div>
             </div>

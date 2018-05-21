@@ -15,7 +15,9 @@ class Sidemenu extends Component {
     render(){
         return(
             <div className="sidemenu-container">
+                <nav>
                 <ul className="navigation">
+
                     <li className="item">
                         <a >
                             <MaterialIcon icon="home" size="small"/>
@@ -37,11 +39,13 @@ class Sidemenu extends Component {
                         </a>
                     </li>
                 </ul>
+                </nav>
 
                 <hr className="divider" />
 
                 <h3 className="sidemenu-title">IL MEGLIO DI YOUTUBE</h3>
 
+                <nav>
                 <ul className="navigation">
                     <li className="item">
                         <a >
@@ -98,9 +102,8 @@ class Sidemenu extends Component {
                             <span className="item-text"> Video a 360 gradi</span>
                         </a>
                     </li>
-
                 </ul>
-
+                </nav>
                 <hr className="divider"/>
 
                 <ul className="navigation">

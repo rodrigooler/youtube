@@ -11,7 +11,7 @@ class App extends Component {
 
           <Header />
           <Sidemenu />
-        <div className="body" />
+        <div className="page-container" />
       </div>
     );
   }

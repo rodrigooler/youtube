@@ -1,12 +1,16 @@
 .App {
   text-align: center;
-}
-html { }
-
-.body{
-  background-color: #fafafa;
-  height:700px;
   font-family: 'Roboto', sans-serif;
+}
+
+
+.page-container{
+  background-color: #fafafa;
+  height:100%;
+  width: 100%;
+  position:relative;
+  overflow: auto;
+
 }
 
 

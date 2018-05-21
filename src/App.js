@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Header from './components/Header'
 import Sidemenu from './components/Sidemenu';
+import Page from './components/Page'
 import 'normalize.css';
 import './App.css';
 
@@ -11,7 +12,7 @@ class App extends Component {
 
           <Header />
           <Sidemenu />
-        <div className="page-container" />
+          <Page />
       </div>
     );
   }

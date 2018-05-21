@@ -1,0 +1,45 @@
+
+.card{
+
+    width:210px;
+    background-color: yellow;
+    padding:0;
+    margin-right:2px;
+}
+
+.card .thumbnaill{
+    width:210px;
+    height:150px;
+    position:relative;
+    background-color:red;
+}
+
+.card .details{
+    margin-top:1px;
+    padding-right:24px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    cursor:pointer;
+}
+
+.details .details-title{
+    margin:8px 0 8px;
+    text-align: left;
+    font-size:14px;
+}
+
+.details .metadata{
+    display:flex;
+    flex-direction: column;
+    text-align: left;
+    color: hsla(0, 0%, 6.7%, .6);
+    font-size:12px;
+    padding-bottom: 20px;
+}
+
+.details .metadata .metadata-line{
+    text-overflow:ellipsis;
+    white-space: nowrap;
+    display:flex;
+}

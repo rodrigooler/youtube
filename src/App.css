@@ -4,16 +4,6 @@
 }
 
 
-.page-container{
-  background-color: #fafafa;
-  height:100%;
-  width: 100%;
-  position:relative;
-  overflow: auto;
-
-}
-
-
 .header{
   height: 56px;
   padding:0 16px;

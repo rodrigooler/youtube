@@ -1,0 +1,36 @@
+
+
+
+
+/* side menu is open */
+.page-container{
+    background-color: #fafafa;
+    height:100%;
+    overflow: auto;
+    display:inline-block;
+    width:100%;
+    margin-left:240px;
+
+    padding-left:40px;
+    padding-right: 40px;
+}
+
+.videos-container{
+    width: 100%;
+    padding-top:20px;
+    padding-bottom: 20px;
+}
+
+.section-title{
+    margin:0;
+    text-align: left;
+}
+
+.section-title:hover{
+    cursor:pointer;
+}
+
+.cards-container{
+    display:flex;
+    flex-direction: row;
+}

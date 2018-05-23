@@ -29,7 +29,9 @@
     justify-content: flex-end;
 
 }
-
+.logged-container{
+    display:flex;
+}
 
 .hamburger-menu{
     display:inline-block;
@@ -53,7 +55,7 @@
     cursor:pointer;
 }
 
-.hamburger-menu, .new-post-button, .apps-button, .notification-button, .account-circle, .login-button, .more-button {
+.hamburger-menu, .new-post-button, .apps-button, .notification-button, .account-circle, .avatar-button, .login-button, .more-button {
     background-color: transparent;
     border: none;
 }
@@ -130,4 +132,12 @@
     color: red;
     font-weight: bold;
 
+}
+
+.avatar-circle{
+    width:24px;
+    height:24px;
+    border-radius:50%;
+    display:inline-block;
+    margin-right:8px;
 }

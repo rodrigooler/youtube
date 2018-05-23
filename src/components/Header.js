@@ -1,12 +1,49 @@
 import React from 'react';
 import MaterialIcon from 'material-icons-react';
 import logoPath from '../youtube_logo.png';
-
+import avatarImg from '../photo.jpg'
 import './header.css';
 
 class Header extends React.Component{
+    constructor(props){
+        super(props);
+        this.state = {
+            isLogged:false
+        }
+
+    }
+
+
+    renderLoggedIcons(){
+        return(
+            <div className="logged-container">
+                <button className="notification-button" aria-label="notification" >
+                     <MaterialIcon icon="notifications" size="small"/>
+                </button>
+                <button className="avatar-button" aria-label="avatar" onClick={() => this.setState({isLogged:false})} >
+                    <img src={avatarImg} alt="avatar" className="avatar-circle" />
+                </button>
+            </div>
+        )
+    }
+    renderIcons(){
+        return (
+            <div className="logged-container">
+                <button className="more-button" aria-label="more" >
+                    <MaterialIcon icon="more_vert" size="small"/>
+                </button>
+                <button className="login-button" aria-label="login" onClick={() => this.setState({isLogged:true})}>
+                    ACCEDI
+                </button>
+            </div>
+        )
+    }
+
+
 
     render(){
+
+        console.log("RENDER. STATE IS: ", this.state)
         return(
             <header className='header'>
                 <div className="header-left">
@@ -37,14 +74,11 @@ class Header extends React.Component{
                         <MaterialIcon icon="apps" size="small"/>
                      </button>
 
+                    {this.state.isLogged ?
+                        this.renderLoggedIcons()  :
+                         this.renderIcons()
 
-                    <button className="more-button" aria-label="" >
-                        <MaterialIcon icon="more_vert" size="small"/>
-                    </button>
-
-                    <button className="login-button">
-                        ACCEDI
-                    </button>
+                    }
                 </div>
             </header>
         )

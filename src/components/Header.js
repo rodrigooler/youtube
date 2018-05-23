@@ -2,6 +2,7 @@ import React from 'react';
 import MaterialIcon from 'material-icons-react';
 import logoPath from '../youtube_logo.png';
 
+import './header.css';
 
 class Header extends React.Component{
 

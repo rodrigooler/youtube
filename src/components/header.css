@@ -1,0 +1,133 @@
+
+.header{
+    height: 56px;
+    padding:0 16px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: white;
+    box-shadow: 2px 0px 4px #888888;
+    margin-bottom: 2px;
+}
+
+.header-left{
+    flex-grow: 1;
+    display:flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.header-center{
+    flex-grow: 3;
+
+
+}
+
+.header-right{
+    flex-grow: 1;
+    display:flex;
+    justify-content: flex-end;
+
+}
+
+
+.hamburger-menu{
+    display:inline-block;
+    width: 40px;
+    height:40px;
+    padding:8px;
+    position:relative;
+    margin-right: 16px;
+}
+
+.logo-container{
+    display:inline-block;
+    padding-top:5px;
+}
+
+.logo-img{
+    width:80px;
+}
+
+.logo-img:hover{
+    cursor:pointer;
+}
+
+.hamburger-menu, .new-post-button, .apps-button, .notification-button, .account-circle, .login-button, .more-button {
+    background-color: transparent;
+    border: none;
+}
+
+
+.search-bar{
+    display:flex;
+    height:30px;
+    justify-content: center;
+}
+
+.search-input{
+    border-radius: 2px 0 0 2px;
+    border:1px solid #ccc;
+    width:100%;
+    padding:8px 4px 8px 4px;
+    max-width: 500px;
+    font-size:16px;
+
+}
+.search-button{
+    width:65px;
+    background-color: rgb(248,248,248);
+    margin:0;
+    border-radius:0 2px 2px 0;
+    border:1px solid #d3d3d3;
+    outline:none;
+}
+
+.new-post-button{
+    display:inline-block;
+    padding:8px;
+    height:48px;
+    width:48px;
+    margin-right:8px;
+}
+
+.notification-button{
+    display:inline-block;
+    padding:8px;
+    height:48px;
+    width:48px;
+    margin-right:8px;
+}
+
+
+.apps-button{
+    display:inline-block;
+    padding:8px;
+    height:48px;
+    width:48px;
+    margin-right:8px;
+}
+
+.account-circle{
+    display:inline-block;
+    margin-right:8px;
+
+}
+
+.more-button{
+    display:inline-block;
+    padding:8px;
+    height:48px;
+    width:48px;
+    margin-right:8px;
+}
+
+.login-button {
+    display: inline-block;
+    margin-right: 8px;
+    text-transform: uppercase;
+    font-size: 16px;
+    color: red;
+    font-weight: bold;
+
+}

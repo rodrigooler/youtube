@@ -2,18 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eac06e05-5b0d-4d94-b56c-33f0a9039e9a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Footer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/navigations/MainNavigation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/navigations/TopChannelsNavigation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/navigations/UserCollections.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/navigations/UserProfileMenu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/navigations/UserSubscriptions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/navigations/styles/user-profile-popup.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/SearchBar.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Button.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Button.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Popup.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Popup.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Sidemenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SideMenu.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -27,11 +19,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Header.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Header.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/Header.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="298">
-              <caret line="60" column="31" selection-start-line="60" selection-start-column="28" selection-end-line="60" selection-end-column="31" />
+            <state relative-caret-position="770">
+              <caret line="163" column="42" selection-start-line="163" selection-start-column="42" selection-end-line="163" selection-end-column="42" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -39,11 +31,35 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserProfileMenu.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="UserProfileMenu.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/navigations/UserProfileMenu.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="25" column="32" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
+            <state relative-caret-position="494">
+              <caret line="35" column="38" lean-forward="true" selection-start-line="35" selection-start-column="38" selection-end-line="35" selection-end-column="38" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SearchBar.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/SearchBar.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="22" column="72" lean-forward="true" selection-start-line="22" selection-start-column="72" selection-end-line="22" selection-end-column="72" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Button.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/Button.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -74,8 +90,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -122,7 +138,6 @@
         <option value="$PROJECT_DIR$/src/components/navigations/NotificationsMenu.js" />
         <option value="$PROJECT_DIR$/src/components/navigations/AppsMenu.js" />
         <option value="$PROJECT_DIR$/src/components/navigations/NewPostMenu.js" />
-        <option value="$PROJECT_DIR$/src/components/Button.js" />
         <option value="$PROJECT_DIR$/src/components/sidemenu.css" />
         <option value="$PROJECT_DIR$/src/components/page.css" />
         <option value="$PROJECT_DIR$/src/components/Page.js" />
@@ -135,10 +150,12 @@
         <option value="$PROJECT_DIR$/src/components/navigations/UserSubscriptions.js" />
         <option value="$PROJECT_DIR$/src/components/navigations/MainNavigation.js" />
         <option value="$PROJECT_DIR$/src/components/Footer.js" />
-        <option value="$PROJECT_DIR$/src/components/Header.js" />
         <option value="$PROJECT_DIR$/src/components/navigations/styles/user-profile-popup.css" />
         <option value="$PROJECT_DIR$/src/components/Popup.js" />
         <option value="$PROJECT_DIR$/src/components/navigations/UserProfileMenu.js" />
+        <option value="$PROJECT_DIR$/src/components/SearchBar.js" />
+        <option value="$PROJECT_DIR$/src/components/Button.js" />
+        <option value="$PROJECT_DIR$/src/components/Header.js" />
       </list>
     </option>
   </component>
@@ -188,13 +205,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="youtube" type="b2602c69:ProjectViewProjectNode" />
-              <item name="youtube" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="navigations" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -240,12 +250,12 @@
       <updated>1526805082545</updated>
       <workItem from="1526805083601" duration="16532000" />
       <workItem from="1526894043991" duration="11215000" />
-      <workItem from="1527096206559" duration="22286000" />
+      <workItem from="1527096206559" duration="23153000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50033000" />
+    <option name="totallyTimeSpent" value="50900000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
@@ -388,16 +398,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Button.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/sidemenu.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
@@ -511,20 +511,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Header.js">
+    <entry file="file://$PROJECT_DIR$/src/components/navigations/UserProfileMenu.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="60" column="31" selection-start-line="60" selection-start-column="28" selection-end-line="60" selection-end-column="31" />
+        <state relative-caret-position="494">
+          <caret line="35" column="38" lean-forward="true" selection-start-line="35" selection-start-column="38" selection-end-line="35" selection-end-column="38" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/navigations/UserProfileMenu.js">
+    <entry file="file://$PROJECT_DIR$/src/components/SearchBar.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="25" column="32" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
+        <state relative-caret-position="418">
+          <caret line="22" column="72" lean-forward="true" selection-start-line="22" selection-start-column="72" selection-end-line="22" selection-end-column="72" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Button.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Header.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="770">
+          <caret line="163" column="42" selection-start-line="163" selection-start-column="42" selection-end-line="163" selection-end-column="42" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>

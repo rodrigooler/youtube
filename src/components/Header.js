@@ -10,6 +10,7 @@ import NewPostMenu from './navigations/NewPostMenu';
 import AppsMenu from './navigations/AppsMenu';
 import UserProfileMenu from './navigations/UserProfileMenu'
 import Button from './Button'
+import SearchBar from "./SearchBar";
 
 class Header extends React.Component{
     constructor(props){
@@ -59,7 +60,7 @@ class Header extends React.Component{
 
         return(
             <div className="logged-container">
-                <Button classStyle="notification-button" iconName="notifications" ariaLabel="notification" func={this.openNotificationsMenu} />
+                <Button type="button" classStyle="notification-button" iconName="notifications" ariaLabel="notification" func={this.openNotificationsMenu} />
 
 
                 <Popup visibility={this.state.isNotificationsMenuOpen ? 'show' : 'hide'}
@@ -68,27 +69,29 @@ class Header extends React.Component{
                     <NotificationsMenu />
                 </Popup>
 
-                <button className="avatar-button" aria-label="avatar" onClick={this.openUserProfileMenu} >
+                <button type="button" className="avatar-button" aria-label="avatar" onClick={this.openUserProfileMenu} >
                     <img src={avatarImg} alt="avatar" className="avatar-circle" />
                 </button>
+
                 <Popup visibility={this.state.isUserProfileOpen ? 'show' : 'hide'} style="user-profile-popup">
                     <UserProfileMenu logOut={this.props.logOut}>
                         <img src={avatarImg} alt="avatar" className="avatar-circle" />
                     </UserProfileMenu>
                 </Popup>
+
             </div>
         )
     }
     renderIcons(){
         return (
             <div className="logged-container">
-                <Button classStyle="more-button" iconName="more_vert" ariaLabel="more" func={this.openMoreMenu} />
+                <Button type="button" classStyle="more-button" iconName="more_vert" ariaLabel="more" func={this.openMoreMenu} />
 
                 <Popup visibility={this.state.isMoreMenuOpen ? "show" : "hide"}   >
                    <MoreMenu />
                 </Popup>
 
-                <button className="login-button" aria-label="login" onClick={this.props.logIn}>
+                <button type="button" className="login-button" aria-label="login" onClick={this.props.logIn}>
                     ACCEDI
                 </button>
             </div>
@@ -137,7 +140,7 @@ class Header extends React.Component{
         return(
             <header className='header'>
                 <div className="header-left">
-                    <Button classStyle="hamburger-menu" iconName="menu" ariaLabel="menu"  func={this.props.handleSideMenu} />
+                    <Button type="button" classStyle="hamburger-menu" iconName="menu" ariaLabel="menu"  func={this.props.handleSideMenu} />
 
 
                     <div className="logo-container">
@@ -146,12 +149,7 @@ class Header extends React.Component{
                 </div>
 
                 <div className="header-center">
-                    <div className="search-bar">
-                        <input className="search-input" placeholder="Cerca"/>
-                        <button className="search-button" aria-label="">
-                            <MaterialIcon icon="search" size="small"/>
-                        </button>
-                    </div>
+                    <SearchBar />
                 </div>
 
                 <div className="header-right"  >
@@ -163,7 +161,7 @@ class Header extends React.Component{
                         <NewPostMenu />
                     </Popup>
 
-                    <Button classStyle="apps-button" iconName="apps" ariaLabel="viao call" func={this.openAppsMenu}  />
+                    <Button type="button" classStyle="apps-button" iconName="apps" ariaLabel="viao call" func={this.openAppsMenu}  />
 
 
                     <Popup visibility={this.state.isAppsMenuOpen ? "show" : "hide"}  >

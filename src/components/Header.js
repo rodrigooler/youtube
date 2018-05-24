@@ -8,9 +8,10 @@ class Header extends React.Component{
     constructor(props){
         super(props);
         this.state = {
-            isLogged:false
+            isLogged:false,
+            isPopupOpen:false
         }
-
+        this.openPopup = this.openPopup.bind(this);
     }
 
 
@@ -38,12 +39,28 @@ class Header extends React.Component{
             </div>
         )
     }
+    /* open load video or post popup */
+    openPopup(){
+        this.setState({isPopupOpen:true})
+    }
 
-
+    renderPopup(){
+        return(
+            <div className="popup">
+                <ul>
+                    <li>
+                        <a>Carica video</a>
+                    </li>
+                    <li>
+                        <a>Trasmetti dal vivo</a>
+                    </li>
+                </ul>
+            </div>
+        )
+    }
 
     render(){
 
-        console.log("RENDER. STATE IS: ", this.state)
         return(
             <header className='header'>
                 <div className="header-left">
@@ -66,9 +83,11 @@ class Header extends React.Component{
                 </div>
 
                 <div className="header-right" aria-label="" >
-                     <button className="new-post-button">
+                     <button className="new-post-button" onClick={this.openPopup}>
                          <MaterialIcon icon="video_call" size="small"/>
                      </button>
+
+                    {this.state.isPopupOpen ? this.renderPopup() : ''}
 
                      <button className="apps-button" aria-label="" >
                         <MaterialIcon icon="apps" size="small"/>

@@ -90,7 +90,7 @@
     padding:8px;
     height:48px;
     width:48px;
-    margin-right:8px;
+
 }
 
 .notification-button{
@@ -98,7 +98,7 @@
     padding:8px;
     height:48px;
     width:48px;
-    margin-right:8px;
+
 }
 
 
@@ -107,7 +107,7 @@
     padding:8px;
     height:48px;
     width:48px;
-    margin-right:8px;
+
 }
 
 .account-circle{
@@ -121,7 +121,7 @@
     padding:8px;
     height:48px;
     width:48px;
-    margin-right:8px;
+
 }
 
 .login-button {
@@ -140,4 +140,38 @@
     border-radius:50%;
     display:inline-block;
     margin-right:8px;
+}
+
+.popup{
+    z-index: 1;
+    position:absolute;
+    width:200px;
+    background-color:white;
+    height:auto;
+    top:44px;
+    right:20px;
+    border-radius:2px;
+    -webkit-box-shadow: 0 0 10px #ccc;
+    -moz-box-shadow: 0 0 10px #ccc;
+    box-shadow: 0 0 10px #ccc;
+}
+
+.popup ul{
+    list-style-type: none;
+    padding-left:0;
+}
+
+.popup ul li{
+    text-align: left;
+    padding: 10px 16px 10px 0;
+}
+
+
+.popup ul li a{
+
+}
+
+.popup ul li:hover{
+    background-color:#ededed;
+    cursor:pointer;
 }

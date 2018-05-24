@@ -1,7 +1,12 @@
 
 
+.menu-open{
+    margin-left:240px;
+}
 
-
+.menu-close{
+    margin-left:0;
+}
 /* side menu is open */
 .page-container{
     background-color: #fafafa;
@@ -9,8 +14,6 @@
     overflow: auto;
     display:inline-block;
     width:100%;
-    margin-left:240px;
-
     padding-left:40px;
     padding-right: 40px;
 }

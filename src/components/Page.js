@@ -6,7 +6,7 @@ class Page extends Component {
 
     render(){
         return(
-            <div className="page-container" >
+            <div className={this.props.classStyle} >
                 <section className="videos-container">
 
                     <h4 className="section-title">

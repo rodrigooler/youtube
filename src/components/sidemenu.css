@@ -1,5 +1,15 @@
-.sidemenu-container{
+
+.menu-width{
     width: 240px;
+}
+
+
+.menu-no-width{
+    width: 0;
+}
+
+.sidemenu-container{
+
     height:90%;
     background-color: #f5f5f5;
     font-size:14px;

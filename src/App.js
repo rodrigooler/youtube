@@ -66,10 +66,13 @@ class App extends Component {
               logOut={this.logOut}
               openMenu={this.openSideMenu}
               closeMenu={this.closeSideMenu}
-              classStyle={this.state.isMenuOpen ? 'sidemenu-container show' : 'sidemenu-container hide'}
+              classStyle={this.state.isMenuOpen ? 'sidemenu-container menu-width' : 'sidemenu-container menu-no-width'}
           />
 
-          <Page />
+          <Page
+              classStyle={this.state.isMenuOpen ? 'page-container menu-open' : 'page-container menu-close'}
+          />
+
       </div>
     );
   }

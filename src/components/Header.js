@@ -4,12 +4,17 @@ import logoPath from '../youtube_logo.png';
 import avatarImg from '../photo.jpg'
 import './header.css';
 import Popup from './Popup';
+import MoreMenu from './navigations/MoreMenu';
+import NotificationsMenu from './navigations/NotificationsMenu';
+import NewPostMenu from './navigations/NewPostMenu';
+import AppsMenu from './navigations/AppsMenu';
+
+import Button from './Button'
 
 class Header extends React.Component{
     constructor(props){
         super(props);
         this.state = {
-            isLogged:false,
             isNewpostOpen:false,
             isAppsMenuOpen:false,
             isMoreMenuOpen:false,
@@ -36,15 +41,16 @@ class Header extends React.Component{
 
         return(
             <div className="logged-container">
-                <button className="notification-button" aria-label="notification" onClick={this.openNotificationsMenu} >
-                     <MaterialIcon icon="notifications" size="small"/>
-                </button>
+                <Button classStyle="notification-button" iconName="notifications" ariaLabel="notification" func={this.openNotificationsMenu} />
 
-                <Popup visibility={this.state.isNotificationsMenuOpen ? 'show' : 'hide'}>
-                    notifiche
+
+                <Popup visibility={this.state.isNotificationsMenuOpen ? 'show' : 'hide'}
+
+                >
+                    <NotificationsMenu />
                 </Popup>
 
-                <button className="avatar-button" aria-label="avatar" onClick={() => this.setState({isLogged:false})} >
+                <button className="avatar-button" aria-label="avatar" onClick={this.props.logOut} >
                     <img src={avatarImg} alt="avatar" className="avatar-circle" />
                 </button>
             </div>
@@ -53,40 +59,13 @@ class Header extends React.Component{
     renderIcons(){
         return (
             <div className="logged-container">
-                <button className="more-button" aria-label="more" onClick={this.openMoreMenu}>
-                    <MaterialIcon icon="more_vert" size="small"/>
-                </button>
-                <Popup visibility={this.state.isMoreMenuOpen ? "show" : "hide"}>
-                    <ul>
-                        <li>
-                            <a>Tema scuro: disattivato</a>
-                        </li>
-                        <li>
-                            <a>Lingua: italiano</a>
-                        </li>
-                        <li>
-                            <a>Impostazioni</a>
-                        </li>
-                        <li>
-                            <a>Guida</a>
-                        </li>
-                        <li>
-                            <a>Invia feedback</a>
-                        </li>
-                    </ul>
-                    <hr className="divider" />
-                    <ul>
-                        <li>
-                            <a>Località Italia</a>
-                        </li>
-                        <li>
-                            <a>Modalità con restrizioni: non attiva</a>
-                        </li>
-                    </ul>
+                <Button classStyle="more-button" iconName="more_vert" ariaLabel="more" func={this.openMoreMenu} />
+
+                <Popup visibility={this.state.isMoreMenuOpen ? "show" : "hide"}   >
+                   <MoreMenu />
                 </Popup>
 
-
-                <button className="login-button" aria-label="login" onClick={() => this.setState({isLogged:true})}>
+                <button className="login-button" aria-label="login" onClick={this.props.logIn}>
                     ACCEDI
                 </button>
             </div>
@@ -127,17 +106,17 @@ class Header extends React.Component{
 
 
     render(){
-        console.log("RENDER: ", this.state)
+        console.log("RENDER: ", this.state);
+
         return(
             <header className='header'>
                 <div className="header-left">
-                <button className="hamburger-menu" aria-label="">
-                    <MaterialIcon icon="menu" size="small"/>
-                </button>
+                    <Button classStyle="hamburger-menu" iconName="menu" ariaLabel="menu"  func={this.props.handleSideMenu} />
 
-                <div className="logo-container">
-                    <img className="logo-img" src={logoPath} alt="youtube logo" />
-                </div>
+
+                    <div className="logo-container">
+                        <img className="logo-img" src={logoPath} alt="youtube logo" />
+                    </div>
                 </div>
 
                 <div className="header-center">
@@ -149,61 +128,23 @@ class Header extends React.Component{
                     </div>
                 </div>
 
-                <div className="header-right" aria-label="" >
-                     <button className="new-post-button" id="new-post" onClick={this.openNewpostMenu}>
-                         <MaterialIcon icon="video_call" size="small"/>
-                     </button>
+                <div className="header-right"  >
 
-                    <Popup visibility={this.state.isNewpostOpen ? "show" : "hide"}>
-                        <ul>
-                            <li>
-                                <a>Carica video</a>
-                            </li>
-                            <li>
-                                <a>Trasmetti dal vivo</a>
-                            </li>
-                        </ul>
+                    <Button classStyle="new-post-button" iconName="video_call" ariaLabel="viao call" func={this.openNewpostMenu}  />
+
+
+                    <Popup visibility={this.state.isNewpostOpen ? "show" : "hide"} >
+                        <NewPostMenu />
                     </Popup>
 
+                    <Button classStyle="apps-button" iconName="apps" ariaLabel="viao call" func={this.openAppsMenu}  />
 
-                     <button className="apps-button" aria-label="" onClick={this.openAppsMenu} >
-                        <MaterialIcon icon="apps" size="small"/>
-                     </button>
 
-                    <Popup visibility={this.state.isAppsMenuOpen ? "show" : "hide"}>
-                        <ul>
-                            <li>
-                                <a>YouTube TV</a>
-                            </li>
-                            <li>
-                                <a>YouTube Gaming</a>
-                            </li>
-                        </ul>
-                        <hr className="divider" />
-                        <ul>
-                            <li>
-                                <a>YouTube Music</a>
-                            </li>
-                            <li>
-                                <a>YouTube Kids</a>
-                            </li>
-                        </ul>
-                        <hr className="divider" />
-                        <ul>
-                            <li>
-                                <a>Creator Academy</a>
-                            </li>
-                            <li>
-                                <a>YouTube for Artist</a>
-                            </li>
-                        </ul>
+                    <Popup visibility={this.state.isAppsMenuOpen ? "show" : "hide"}  >
+                       <AppsMenu />
                     </Popup>
 
-                    {this.state.isLogged ?
-                        this.renderLoggedIcons()  :
-                         this.renderIcons()
-
-                    }
+                    {this.state.isLogged ?  this.renderLoggedIcons()  :   this.renderIcons()  }
                 </div>
             </header>
         )

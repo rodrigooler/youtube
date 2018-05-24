@@ -14,7 +14,7 @@ import video_360_icon from '../video_360_icon.jpg';
 class Sidemenu extends Component {
     render(){
         return(
-            <div className="sidemenu-container">
+            <div className={this.props.classStyle}>
                 <nav>
                 <ul className="navigation">
 

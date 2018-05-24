@@ -175,3 +175,11 @@
     background-color:#ededed;
     cursor:pointer;
 }
+
+.show{
+    visibility: visible;
+}
+
+.hide{
+    visibility: hidden;
+}

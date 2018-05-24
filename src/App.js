@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Header from './components/Header'
-import Sidemenu from './components/Sidemenu';
+import SideMenu from './components/SideMenu';
 import Page from './components/Page'
 import 'normalize.css';
 import './App.css';
@@ -58,11 +58,12 @@ class App extends Component {
             logIn={this.logIn}
             logOut={this.logOut}
             handleSideMenu={this.handleSideMenu}
-            openMenu={this.openSideMenu}
-            closeMenu={this.closeSideMenu}
+            isLogged={this.state.isLogged}
           />
-          <Sidemenu
+
+          <SideMenu
               logIn={this.logIn}
+              isLogged={this.state.isLogged}
               logOut={this.logOut}
               openMenu={this.openSideMenu}
               closeMenu={this.closeSideMenu}
@@ -71,6 +72,7 @@ class App extends Component {
 
           <Page
               classStyle={this.state.isMenuOpen ? 'page-container menu-open' : 'page-container menu-close'}
+
           />
 
       </div>

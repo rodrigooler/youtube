@@ -1,0 +1,22 @@
+
+.user-profile-popup{
+    width:280px;
+
+}
+
+.user-profile-header{
+    display:flex;
+    flex-direction: row;
+    background-color:hsla(0, 0%, 93.3%, .4);
+    padding:8px;
+}
+
+.user-profile-header-left{
+    flex-grow:1
+}
+
+.user-profile-header-right{
+    flex-grow:4;
+    display:flex;
+    flex-direction: column;
+}

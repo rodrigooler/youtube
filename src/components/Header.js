@@ -8,7 +8,7 @@ import MoreMenu from './navigations/MoreMenu';
 import NotificationsMenu from './navigations/NotificationsMenu';
 import NewPostMenu from './navigations/NewPostMenu';
 import AppsMenu from './navigations/AppsMenu';
-
+import UserProfileMenu from './navigations/UserProfileMenu'
 import Button from './Button'
 
 class Header extends React.Component{
@@ -18,13 +18,30 @@ class Header extends React.Component{
             isNewpostOpen:false,
             isAppsMenuOpen:false,
             isMoreMenuOpen:false,
-            isNotificationsMenuOpen:false
+            isNotificationsMenuOpen:false,
+            isUserProfileOpen:false
 
-        }
+        };
+
         this.openNewpostMenu = this.openNewpostMenu.bind(this)
         this.openAppsMenu = this.openAppsMenu.bind(this);
         this.openMoreMenu = this.openMoreMenu.bind(this);
         this.openNotificationsMenu = this.openNotificationsMenu.bind(this);
+        this.openUserProfileMenu = this.openUserProfileMenu.bind(this);
+
+    }
+
+    openUserProfileMenu(){
+        const _self = this;
+        this.setState({
+            isMoreMenuOpen : false,
+            isAppsMenuOpen:false,
+            isNewpostOpen:false,
+            isNotificationsMenuOpen:false,
+        }, _self.setState({
+
+            isUserProfileOpen: true
+        }))
     }
 
     openNotificationsMenu(){
@@ -33,6 +50,7 @@ class Header extends React.Component{
             isMoreMenuOpen : false,
             isAppsMenuOpen:false,
             isNewpostOpen:false,
+            isUserProfileOpen: false
         }, _self.setState({
             isNotificationsMenuOpen:true,
         }))
@@ -50,9 +68,14 @@ class Header extends React.Component{
                     <NotificationsMenu />
                 </Popup>
 
-                <button className="avatar-button" aria-label="avatar" onClick={this.props.logOut} >
+                <button className="avatar-button" aria-label="avatar" onClick={this.openUserProfileMenu} >
                     <img src={avatarImg} alt="avatar" className="avatar-circle" />
                 </button>
+                <Popup visibility={this.state.isUserProfileOpen ? 'show' : 'hide'} style="user-profile-popup">
+                    <UserProfileMenu logOut={this.props.logOut}>
+                        <img src={avatarImg} alt="avatar" className="avatar-circle" />
+                    </UserProfileMenu>
+                </Popup>
             </div>
         )
     }
@@ -77,7 +100,8 @@ class Header extends React.Component{
         this.setState({
             isMoreMenuOpen : false,
             isAppsMenuOpen:false,
-            isNotificationsMenuOpen:false
+            isNotificationsMenuOpen:false,
+            isUserProfileOpen:false
         }, _self.setState({
             isNewpostOpen:true,
         }))
@@ -88,7 +112,8 @@ class Header extends React.Component{
         this.setState({
             isMoreMenuOpen : false,
             isNewpostOpen:false,
-            isNotificationsMenuOpen:false
+            isNotificationsMenuOpen:false,
+            isUserProfileOpen:false,
         }, _self.setState({
             isAppsMenuOpen:true,
         }))
@@ -98,7 +123,8 @@ class Header extends React.Component{
         this.setState({
             isNewpostOpen:false,
             isAppsMenuOpen:false,
-            isNotificationsMenuOpen:false
+            isNotificationsMenuOpen:false,
+            isUserProfileOpen:false,
         }, _self.setState({
             isMoreMenuOpen : true
         }))
@@ -144,7 +170,7 @@ class Header extends React.Component{
                        <AppsMenu />
                     </Popup>
 
-                    {this.state.isLogged ?  this.renderLoggedIcons()  :   this.renderIcons()  }
+                    {this.props.isLogged ?  this.renderLoggedIcons()  :   this.renderIcons()  }
                 </div>
             </header>
         )

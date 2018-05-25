@@ -1,7 +1,6 @@
 import React from 'react';
-import MaterialIcon from 'material-icons-react';
-import logoPath from '../youtube_logo.png';
-import avatarImg from '../photo.jpg'
+import logoPath from '../images/youtube_logo.png';
+import avatarImg from '../images/photo.jpg'
 import './header.css';
 import Popup from './Popup';
 import MoreMenu from './navigations/MoreMenu';

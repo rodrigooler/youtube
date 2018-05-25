@@ -1,13 +1,13 @@
 import React from 'react';
 
 
-import ball_icon from '../../ball_icon.jpg';
-import music_icon from '../../music_icon.jpg';
-import gamepad_icon from '../../gamepad_icon.jpg';
-import live_icon from '../../live_icon.jpg';
-import movie_icon from '../../movie_icon.jpg';
-import news_icon from '../../news_icon.jpg';
-import video_360_icon from '../../video_360_icon.jpg';
+import ball_icon from '../../images/ball_icon.jpg';
+import music_icon from '../../images/music_icon.jpg';
+import gamepad_icon from '../../images/gamepad_icon.jpg';
+import live_icon from '../../images/live_icon.jpg';
+import movie_icon from '../../images/movie_icon.jpg';
+import news_icon from '../../images/news_icon.jpg';
+import video_360_icon from '../../images/video_360_icon.jpg';
 
 const TopChannelsNavigation = () =>
     <React.Fragment>

@@ -2,9 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eac06e05-5b0d-4d94-b56c-33f0a9039e9a" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/images/brightness_medium.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/gaming.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/kids.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/language.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/live-broadcast.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/load-video.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/svgexport-10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/svgexport-27.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/svgexport-55.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/svgexport-9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/youtube-music.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/youtube-tv.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/youtube.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ball_icon.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/ball_icon.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SearchBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SearchBar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/navigations/AppsMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navigations/AppsMenu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/navigations/MoreMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navigations/MoreMenu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/navigations/NewPostMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navigations/NewPostMenu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/navigations/TopChannelsNavigation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navigations/TopChannelsNavigation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gamepad_icon.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/gamepad_icon.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/live_icon.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/live_icon.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/movie_icon.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/movie_icon.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/music_icon.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/music_icon.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/news_icon.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/news_icon.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/photo.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/photo.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/video_360_icon.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/video_360_icon.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/youtube_logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/youtube_logo.png" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,56 +43,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Header.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/Header.js">
+      <file leaf-file-name="MoreMenu.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/navigations/MoreMenu.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="62" column="76" selection-start-line="62" selection-start-column="76" selection-end-line="62" selection-end-column="76" />
+            <state relative-caret-position="228">
+              <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SearchBar.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/components/SearchBar.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="25" column="66" selection-start-line="25" selection-start-column="66" selection-end-line="25" selection-end-column="66" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Button.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/Button.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" column="33" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="33" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="user-profile-popup.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/navigations/styles/user-profile-popup.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="header.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/header.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="305">
-              <caret line="78" column="14" selection-start-line="78" selection-start-column="1" selection-end-line="78" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -122,10 +105,7 @@
         <option value="$PROJECT_DIR$/src/App.css" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/components/navigations/Moremenu.js" />
-        <option value="$PROJECT_DIR$/src/components/navigations/MoreMenu.js" />
         <option value="$PROJECT_DIR$/src/components/navigations/NotificationsMenu.js" />
-        <option value="$PROJECT_DIR$/src/components/navigations/AppsMenu.js" />
-        <option value="$PROJECT_DIR$/src/components/navigations/NewPostMenu.js" />
         <option value="$PROJECT_DIR$/src/components/sidemenu.css" />
         <option value="$PROJECT_DIR$/src/components/page.css" />
         <option value="$PROJECT_DIR$/src/components/Page.js" />
@@ -142,9 +122,12 @@
         <option value="$PROJECT_DIR$/src/components/Popup.js" />
         <option value="$PROJECT_DIR$/src/components/navigations/UserProfileMenu.js" />
         <option value="$PROJECT_DIR$/src/components/Button.js" />
-        <option value="$PROJECT_DIR$/src/components/Header.js" />
         <option value="$PROJECT_DIR$/src/components/header.css" />
         <option value="$PROJECT_DIR$/src/components/SearchBar.js" />
+        <option value="$PROJECT_DIR$/src/components/Header.js" />
+        <option value="$PROJECT_DIR$/src/components/navigations/NewPostMenu.js" />
+        <option value="$PROJECT_DIR$/src/components/navigations/AppsMenu.js" />
+        <option value="$PROJECT_DIR$/src/components/navigations/MoreMenu.js" />
       </list>
     </option>
   </component>
@@ -194,6 +177,19 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="youtube" type="b2602c69:ProjectViewProjectNode" />
+              <item name="youtube" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="navigations" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="youtube" type="b2602c69:ProjectViewProjectNode" />
+              <item name="youtube" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -210,7 +206,11 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/images" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/images" />
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/src/components" />
     </key>
@@ -239,12 +239,12 @@
       <updated>1526805082545</updated>
       <workItem from="1526805083601" duration="16532000" />
       <workItem from="1526894043991" duration="11215000" />
-      <workItem from="1527096206559" duration="25107000" />
+      <workItem from="1527096206559" duration="27778000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52854000" />
+    <option name="totallyTimeSpent" value="55525000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
@@ -332,7 +332,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/youtube_logo.png">
+    <entry file="file://$PROJECT_DIR$/src/images/youtube_logo.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Card.js">
@@ -363,20 +363,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
           <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/navigations/AppsMenu.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="26" selection-start-column="26" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/navigations/MoreMenu.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -414,16 +400,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Footer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1577">
-          <caret line="83" column="22" selection-start-line="83" selection-start-column="22" selection-end-line="83" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/navigations/UserSubscriptions.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="456">
@@ -449,20 +425,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
           <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/navigations/styles/user-profile-popup.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/navigations/NewPostMenu.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="9" lean-forward="true" selection-start-line="2" selection-start-column="4" selection-end-line="9" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -503,20 +465,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Header.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="62" column="76" selection-start-line="62" selection-start-column="76" selection-end-line="62" selection-end-column="76" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/header.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="305">
           <caret line="78" column="14" selection-start-line="78" selection-start-column="1" selection-end-line="78" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Header.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -532,8 +494,76 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/SearchBar.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="25" column="66" selection-start-line="25" selection-start-column="66" selection-end-line="25" selection-end-column="66" />
+        <state relative-caret-position="627">
+          <caret line="33" column="25" lean-forward="true" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/navigations/styles/user-profile-popup.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Footer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1560">
+          <caret line="83" column="22" selection-start-line="83" selection-start-column="22" selection-end-line="83" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/images/svgexport-9.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/images/svgexport-10.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/images/youtube-tv.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/images/svgexport-27.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/images/gaming.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/images/kids.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/images/youtube.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/images/youtube-music.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/navigations/AppsMenu.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="47" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/navigations/NewPostMenu.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/navigations/MoreMenu.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>

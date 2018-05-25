@@ -23,7 +23,7 @@ class SearchBar extends React.Component {
              <form  onSubmit={this.handleSubmit} className="search-bar">
                 <input type="text" value={this.state.value} onChange={this.handleChange} className="search-input" placeholder="Cerca"/>
 
-                <Button type="submit" iconName="search" className="search-button" ariaLabel="search" />
+                <Button type="submit" iconName="search" classStyle="search-button" ariaLabel="search" />
              </form>
 
         )

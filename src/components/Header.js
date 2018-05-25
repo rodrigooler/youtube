@@ -60,7 +60,7 @@ class Header extends React.Component{
 
         return(
             <div className="logged-container">
-                <Button type="button" classStyle="notification-button" iconName="notifications" ariaLabel="notification" func={this.openNotificationsMenu} />
+                <Button type="button" classStyle="notification-button ripple" iconName="notifications" ariaLabel="notification" func={this.openNotificationsMenu} />
 
 
                 <Popup visibility={this.state.isNotificationsMenuOpen ? 'show' : 'hide'}
@@ -85,7 +85,7 @@ class Header extends React.Component{
     renderIcons(){
         return (
             <div className="logged-container">
-                <Button type="button" classStyle="more-button" iconName="more_vert" ariaLabel="more" func={this.openMoreMenu} />
+                <Button type="button" classStyle="more-button ripple" iconName="more_vert" ariaLabel="more" func={this.openMoreMenu} />
 
                 <Popup visibility={this.state.isMoreMenuOpen ? "show" : "hide"}   >
                    <MoreMenu />
@@ -140,7 +140,7 @@ class Header extends React.Component{
         return(
             <header className='header'>
                 <div className="header-left">
-                    <Button type="button" classStyle="hamburger-menu" iconName="menu" ariaLabel="menu"  func={this.props.handleSideMenu} />
+                    <Button type="button" classStyle="hamburger-menu ripple" iconName="menu" ariaLabel="menu"  func={this.props.handleSideMenu} />
 
 
                     <div className="logo-container">
@@ -154,14 +154,14 @@ class Header extends React.Component{
 
                 <div className="header-right"  >
 
-                    <Button classStyle="new-post-button" iconName="video_call" ariaLabel="viao call" func={this.openNewpostMenu}  />
+                    <Button classStyle="new-post-button ripple" iconName="video_call" ariaLabel="viao call" func={this.openNewpostMenu}  />
 
 
                     <Popup visibility={this.state.isNewpostOpen ? "show" : "hide"} >
                         <NewPostMenu />
                     </Popup>
 
-                    <Button type="button" classStyle="apps-button" iconName="apps" ariaLabel="viao call" func={this.openAppsMenu}  />
+                    <Button type="button" classStyle="apps-button ripple" iconName="apps" ariaLabel="viao call" func={this.openAppsMenu}  />
 
 
                     <Popup visibility={this.state.isAppsMenuOpen ? "show" : "hide"}  >

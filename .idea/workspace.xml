@@ -1,36 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eac06e05-5b0d-4d94-b56c-33f0a9039e9a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/images/brightness_medium.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/gaming.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/kids.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/language.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/live-broadcast.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/load-video.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/svgexport-10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/svgexport-27.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/svgexport-55.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/svgexport-9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/youtube-music.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/youtube-tv.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/youtube.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ball_icon.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/ball_icon.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/navigations/AppsMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navigations/AppsMenu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/navigations/MoreMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navigations/MoreMenu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/navigations/NewPostMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navigations/NewPostMenu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/navigations/TopChannelsNavigation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navigations/TopChannelsNavigation.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gamepad_icon.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/gamepad_icon.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/live_icon.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/live_icon.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/movie_icon.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/movie_icon.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/music_icon.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/music_icon.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/news_icon.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/news_icon.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/photo.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/photo.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/video_360_icon.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/video_360_icon.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/youtube_logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/youtube_logo.png" afterDir="false" />
-    </list>
+    <list default="true" id="eac06e05-5b0d-4d94-b56c-33f0a9039e9a" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -46,8 +17,8 @@
       <file leaf-file-name="MoreMenu.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/navigations/MoreMenu.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+            <state relative-caret-position="532">
+              <caret line="28" column="12" lean-forward="true" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -239,12 +210,12 @@
       <updated>1526805082545</updated>
       <workItem from="1526805083601" duration="16532000" />
       <workItem from="1526894043991" duration="11215000" />
-      <workItem from="1527096206559" duration="27778000" />
+      <workItem from="1527096206559" duration="28502000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55525000" />
+    <option name="totallyTimeSpent" value="56249000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
@@ -562,8 +533,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/navigations/MoreMenu.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+        <state relative-caret-position="532">
+          <caret line="28" column="12" lean-forward="true" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>

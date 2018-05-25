@@ -62,9 +62,7 @@ class Header extends React.Component{
                 <Button type="button" classStyle="notification-button ripple" iconName="notifications" ariaLabel="notification" func={this.openNotificationsMenu} />
 
 
-                <Popup visibility={this.state.isNotificationsMenuOpen ? 'show' : 'hide'}
-
-                >
+                <Popup visibility={this.state.isNotificationsMenuOpen ? 'show' : 'hide'} style="popup-xl" >
                     <NotificationsMenu />
                 </Popup>
 

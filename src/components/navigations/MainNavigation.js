@@ -1,5 +1,6 @@
 import React from 'react';
 import MaterialIcon from 'material-icons-react';
+
 const  MainNavigation = () =>
     <nav>
         <ul className="navigation">

@@ -1,0 +1,28 @@
+ul.apps-menu-container{
+	display:flex;
+	flex-direction:column;
+	margin-top:6px;
+	margin-bottom: 6px;
+	font-size:14px;
+}
+.apps-menu-popup{
+	width:220px;
+	right:110px;
+}
+.apps-menu-popup .apps-menu-container li{
+	display:flex;
+	padding: 10px 16px 10px 16px;
+	align-items: flex-start;
+	flex-direction: row;
+
+}
+
+.apps-menu-popup .apps-menu-container li img{
+	margin-right:25px;
+}
+
+
+.apps-menu-popup .apps-menu-container li span{
+	display:flex;
+	line-height:1.8;
+}

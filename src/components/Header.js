@@ -10,6 +10,7 @@ import AppsMenu from './navigations/AppsMenu';
 import UserProfileMenu from './navigations/UserProfileMenu'
 import Button from './Button'
 import SearchBar from "./SearchBar";
+import MultiPagePopup from './MultiPagePopup'
 
 class Header extends React.Component{
     constructor(props){
@@ -84,9 +85,9 @@ class Header extends React.Component{
             <div className="logged-container">
                 <Button type="button" classStyle="more-button ripple" iconName="more_vert" ariaLabel="more" func={this.openMoreMenu} />
 
-                <Popup visibility={this.state.isMoreMenuOpen ? "show" : "hide"}   >
+                <MultiPagePopup visibility={this.state.isMoreMenuOpen ? "show" : "hide"}  style="multi-page-popup" >
                    <MoreMenu />
-                </Popup>
+                </MultiPagePopup>
 
                 <button type="button" className="login-button" aria-label="login" onClick={this.props.logIn}>
                     ACCEDI
@@ -154,14 +155,14 @@ class Header extends React.Component{
                     <Button classStyle="new-post-button ripple" iconName="video_call" ariaLabel="viao call" func={this.openNewpostMenu}  />
 
 
-                    <Popup visibility={this.state.isNewpostOpen ? "show" : "hide"} >
+                    <Popup visibility={this.state.isNewpostOpen ? "show" : "hide"} style="apps-menu-popup" >
                         <NewPostMenu />
                     </Popup>
 
                     <Button type="button" classStyle="apps-button ripple" iconName="apps" ariaLabel="viao call" func={this.openAppsMenu}  />
 
 
-                    <Popup visibility={this.state.isAppsMenuOpen ? "show" : "hide"}  >
+                    <Popup visibility={this.state.isAppsMenuOpen ? "show" : "hide"} style="apps-menu-popup" >
                        <AppsMenu />
                     </Popup>
 

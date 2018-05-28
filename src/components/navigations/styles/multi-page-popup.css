@@ -1,0 +1,28 @@
+.multi-page-popup{
+	width:300px;
+}
+
+.multi-page-popup ul li{
+	padding:10px 16px 10px 16px;
+	display:flex;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+
+.multi-page-popup ul li span{
+	line-height: 1.5;
+}
+
+.multi-page-popup ul li i:first-child, .multi-page-popup ul li img:first-child  {
+	margin-right:10px;
+}
+
+
+.multi-page-popup ul li i:last-child {
+	position:absolute;
+	right:16px;
+}
+
+.multi-page-popup span.text-color{
+	 color:rgb(135, 135, 135);
+}
